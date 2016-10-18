@@ -1,0 +1,17 @@
+body{
+	margin:0px;
+	padding:0px;	
+}
+#bannerBg{width:100%;height:320px;clear:both;margin-top:50px;position:relative;}
+#bannerBg .bg0,#bannerBg .bg1,#bannerBg .bg2,#bannerBg .bg3,#bannerBg .bg4,#bannerBg .bg5{position:absolute;left:0px;top:0px;width:100%;height:320px;display:none;}
+#bannerBg .bg0{background:#00bacb;}
+#bannerBg .bg1{background:#2aa9fa;}
+#bannerBg .bg2{background:#5ad2d3;}
+#bannerBg .bg3{background:#6fbaf1;}
+#bannerBg .bg4{background:#92d9ff;}
+#bannerBg .bg5{background:#e7e7e7;}
+#bannerBg ul{margin:0px;padding:0px;list-style:none;	}
+#bannerBg ul li{position:absolute;left:50%;top:0px;width:905px;height:320px;margin-left:-452px;display:none;cursor:pointer;}
+#bannerBg #btt{width:905px;height:55px;top:290px;left:50%;position:relative;margin-left:-604px;}
+#bannerBg #btt span{
+background:#666;position:absolute;	top:0px;left:45%;display:block;width:20px;height:20px;border-radius: 50%;margin:0 15px;text-align:center;color: #fff;}
